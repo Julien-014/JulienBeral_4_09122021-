@@ -20,6 +20,8 @@ a:hover {
 
 img {
     margin: auto;
+    width: auto;
+    max-height: 100%;
 }
 
 #page-loading-blocs-notifaction {
