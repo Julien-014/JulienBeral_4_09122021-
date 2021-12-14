@@ -20,8 +20,5 @@
 	$headers .= "Reply-To: $input_504";	
 	
 	mail($to,$email_subject,$email_body,$headers); // Post message
-	return true;	
-	add_filter( 'generate_google_font_display', function() {
-		return 'swap';
-	} );		
+	return true;		
 ?>
